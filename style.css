@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: linear-gradient(45deg, red, blue);
+}
+.Home{
+    background: linear-gradient(45deg, red, blue); 
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.navbar-brand{
+    height: 50px;
+    padding-left: 20px;
+}
+.navbar-nav a{
+    padding: 0 10px;
+    color: #fff;
+}
+.navbar-toggler{
+    outline : none;
+}
+.navbar-toggler i{
+    color: #fff;
+    border: none;
+}
+.want-more{
+    background: linear-gradient(45deg, red, blue);
+}
+.potential{
+    background: linear-gradient(45deg, red, blue);
+}
+.promotions{
+    font-size: 60px;
+    background: #e9e5e5;
+}
+.contact{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 100px;
+}
